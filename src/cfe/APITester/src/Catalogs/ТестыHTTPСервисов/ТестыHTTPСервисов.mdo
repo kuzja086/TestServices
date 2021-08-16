@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c2b9f02-db7c-4a54-9e0a-774c703720f3">
+  <producedTypes>
+    <objectType typeId="ff415f64-34d7-4392-80e0-e0e957db689d" valueTypeId="3c474022-15e5-4f29-ae5f-40695a91cd26"/>
+    <refType typeId="0e6d6ddf-dd7d-4e68-98a3-c4f7158df06b" valueTypeId="abe97cdd-d599-4c39-9dc1-fb0406c7bce5"/>
+    <selectionType typeId="a130e926-53a0-4bf1-8a18-e6529669cf11" valueTypeId="fad7696c-70de-4a7b-9b03-704e5a32afca"/>
+    <listType typeId="fb72620d-1877-4705-8707-f1d4cf786d43" valueTypeId="40d8775c-41fb-49ea-be93-54ab46591aae"/>
+    <managerType typeId="0980dce3-8bcb-40d8-8a86-38104cb04d99" valueTypeId="0e66f1b9-58ae-4b40-8bcb-c6e475e2649c"/>
+  </producedTypes>
+  <name>ТестыHTTPСервисов</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестыHTTPСервисов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТестыHTTPСервисов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fe7535a5-ce81-452e-953c-beccf9e0c094">
+    <name>Используется</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d21eb4d6-9a69-4e17-b3d0-056deca6ccc5">
+    <name>URL</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="feeec94f-a5df-4873-b4f3-82abb7045585">
+    <name>СтрокаJSONЗапроса</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aec905ee-bf60-45ca-917f-5d744dd8a0a9">
+    <name>ТипЗапроса</name>
+    <type>
+      <types>EnumRef.ТипЗапроса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9293a6a7-faef-4dc1-8567-2bef0b87ef56">
+    <name>РезультатЗапроса</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95d570d4-52d5-48a4-b62a-b469cbf79bfd">
+  <producedTypes>
+    <objectType typeId="ccedb318-da40-4a7a-9f1b-e16bb63a6a48" valueTypeId="9ec6280b-c893-4ee0-94f1-9068530e9f75"/>
+    <managerType typeId="009e71c2-f700-47e0-a8c8-42f9abd2cf11" valueTypeId="a015a590-9740-47e7-87ed-fe98cbe81867"/>
+  </producedTypes>
+  <name>ЗапускТестовHTTPСервиса</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗапускТестовHTTPСервиса.Form.Форма</defaultForm>
+  <forms uuid="46341764-66cc-499a-b425-65a0c9792ec0">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
