@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aebae78-6a82-4608-b8c3-424e8378f38d">
+  <producedTypes>
+    <refType typeId="334b0f10-59bd-4f35-9fd5-c538c2da765f" valueTypeId="d34c3e67-48bd-4fd7-baba-2c22d2edcc43"/>
+    <listType typeId="39af755f-540f-4de0-902f-774aa0a0b4c1" valueTypeId="f94bd551-7dbc-41f4-8842-de8498f57d74"/>
+    <managerType typeId="54123e80-cfc5-4c10-95ce-0d1ccf333aca" valueTypeId="3590ece8-d5a3-4e02-b6af-e521afbc0786"/>
+  </producedTypes>
+  <name>ТипЗапроса</name>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f3da0de-de01-49be-b57b-3c1e99833e29">
+    <name>GET</name>
+  </enumValues>
+  <enumValues uuid="d66e18f0-4bd6-4ab5-beb6-692c7a90abd0">
+    <name>POST</name>
+  </enumValues>
+</mdclass:Enum>
